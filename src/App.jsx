@@ -1,12 +1,15 @@
-import Counter from './features/counter/Counter'
 import './App.css'
+import AddPostForm from './features/post/AddPostForm'
+import PostList from './features/post/PostList'
+
 
 function App() {
 
   return (
-    <div className='App'>
-      <Counter />
-    </div>
+    <main className='App'>
+      <AddPostForm />
+      <PostList />
+    </main>
   )
 }
 
